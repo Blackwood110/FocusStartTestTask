@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		3A77A2B1234E364000E24FF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A77A2B0234E364000E24FF5 /* AppDelegate.swift */; };
-		3A77A2B3234E364000E24FF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A77A2B2234E364000E24FF5 /* SceneDelegate.swift */; };
 		3A77A2B5234E364000E24FF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A77A2B4234E364000E24FF5 /* ViewController.swift */; };
-		3A77A2B8234E364000E24FF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A77A2B6234E364000E24FF5 /* Main.storyboard */; };
 		3A77A2BA234E364200E24FF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A77A2B9234E364200E24FF5 /* Assets.xcassets */; };
 		3A77A2BD234E364200E24FF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A77A2BB234E364200E24FF5 /* LaunchScreen.storyboard */; };
+		3A77A2C5234E371600E24FF5 /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A77A2C4234E371600E24FF5 /* CarModel.swift */; };
+		3A8EF6D7234E7395006B69F5 /* CarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8EF6D6234E7395006B69F5 /* CarCell.swift */; };
+		3AA87E3C234FBB260082A59C /* ChangeCarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA87E3B234FBB260082A59C /* ChangeCarVC.swift */; };
+		3AA87E3F234FBCCB0082A59C /* ChangeCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA87E3E234FBCCB0082A59C /* ChangeCarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3A77A2AD234E364000E24FF5 /* FocusStartTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusStartTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A77A2B0234E364000E24FF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3A77A2B2234E364000E24FF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3A77A2B4234E364000E24FF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3A77A2B7234E364000E24FF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A77A2B9234E364200E24FF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A77A2BC234E364200E24FF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A77A2BE234E364200E24FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A77A2C4234E371600E24FF5 /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
+		3A8EF6D6234E7395006B69F5 /* CarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCell.swift; sourceTree = "<group>"; };
+		3AA87E3B234FBB260082A59C /* ChangeCarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCarVC.swift; sourceTree = "<group>"; };
+		3AA87E3E234FBCCB0082A59C /* ChangeCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,25 @@
 		3A77A2AF234E364000E24FF5 /* FocusStartTestTask */ = {
 			isa = PBXGroup;
 			children = (
+				3AA87E3D234FBCAB0082A59C /* ChangeCar */,
 				3A77A2B0234E364000E24FF5 /* AppDelegate.swift */,
-				3A77A2B2234E364000E24FF5 /* SceneDelegate.swift */,
 				3A77A2B4234E364000E24FF5 /* ViewController.swift */,
-				3A77A2B6234E364000E24FF5 /* Main.storyboard */,
 				3A77A2B9234E364200E24FF5 /* Assets.xcassets */,
 				3A77A2BB234E364200E24FF5 /* LaunchScreen.storyboard */,
 				3A77A2BE234E364200E24FF5 /* Info.plist */,
+				3A77A2C4234E371600E24FF5 /* CarModel.swift */,
+				3A8EF6D6234E7395006B69F5 /* CarCell.swift */,
 			);
 			path = FocusStartTestTask;
+			sourceTree = "<group>";
+		};
+		3AA87E3D234FBCAB0082A59C /* ChangeCar */ = {
+			isa = PBXGroup;
+			children = (
+				3AA87E3B234FBB260082A59C /* ChangeCarVC.swift */,
+				3AA87E3E234FBCCB0082A59C /* ChangeCarView.swift */,
+			);
+			path = ChangeCar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +141,6 @@
 			files = (
 				3A77A2BD234E364200E24FF5 /* LaunchScreen.storyboard in Resources */,
 				3A77A2BA234E364200E24FF5 /* Assets.xcassets in Resources */,
-				3A77A2B8234E364000E24FF5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +151,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A77A2C5234E371600E24FF5 /* CarModel.swift in Sources */,
 				3A77A2B5234E364000E24FF5 /* ViewController.swift in Sources */,
+				3A8EF6D7234E7395006B69F5 /* CarCell.swift in Sources */,
+				3AA87E3F234FBCCB0082A59C /* ChangeCarView.swift in Sources */,
 				3A77A2B1234E364000E24FF5 /* AppDelegate.swift in Sources */,
-				3A77A2B3234E364000E24FF5 /* SceneDelegate.swift in Sources */,
+				3AA87E3C234FBB260082A59C /* ChangeCarVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3A77A2B6234E364000E24FF5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3A77A2B7234E364000E24FF5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3A77A2BB234E364200E24FF5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZDR42PTGTK;
 				INFOPLIST_FILE = FocusStartTestTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZDR42PTGTK;
 				INFOPLIST_FILE = FocusStartTestTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
